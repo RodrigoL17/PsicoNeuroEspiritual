@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--Script iconos (ej: intagram)-->
+    <script src="https://kit.fontawesome.com/5f9773ff36.js" crossorigin="anonymous"></script>
+
+    <!--links tipo de fuente-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"/>
+
+    <!--CSS-->
+    <link rel="stylesheet" href="../css/styles.css" />
+    <title>Contacto - PsicoNeuroEspiritual</title>
+  </head>
+  <body id="inicio">
+      <!--Header, se encuntra la barra de navegacion superior y el logo-->
+      <header>
+        <nav class="menu">
+          <a href="../Index.html">
+            <div class="menu-logo-container">
+              <img class="menu-logo-img" src="../img/logopsico.svg" alt="Logo psiconeuroespiritual"/>
+            </div>
+          </a>
+          <i class="fa-solid fa-bars icono-barras" ></i>
+          <ul class="menu-side-right">
+            <li>
+              <a href="./Nosotros.html">Nosotros</a>
+            </li>
+            <li>
+              <a href="./Staff.html">Staff</a>
+            </li>
+            <li>
+              <a href="./Servicios.html">Servicios</a>
+            </li>
+            <li class="clicked contacto">Contacto</li>
+          </ul>
+        </nav>
+      </header>
+      <!--Contenido pricipal de Contacto, formulario de contacto-->
+      <main>
+        <form class="form-contacto" action="" method="post">
+          <fieldset>
+            <legend>Formulario</legend>
+            <img
+              class="form-logo"
+              src="../img/logopsico.svg"
+              alt="Logo psiconeuroespiritual"
+            />
+            <div class="form-input-container">
+              <label for="nombre">Escribe tu nombre</label>
+              <input class="input-t" type="text" placeholder="Pedro Perez" />
+            </div>
+            <div class="form-input-container">
+              <label for="email">Escribe tu email</label>
+              <input class="input-t" type="email" placeholder="ejemplo@ejemplo.com" />
+            </div>
+            <div class="form-input-container">
+              <label for="tel">Escribe tu telefono</label>
+              <input class="input-t" type="tel" placeholder="+54 9 11-1234-5678" />
+            </div>
+            <textarea
+              class="form-textarea"
+              name="caja-de-comentarios"
+              id=""
+              cols="30"
+              rows="10"
+              placeholder="Dejanos un comentario"
+            ></textarea>
+            <div class="form-buttons-container">
+              <input class="form-buttons" type="submit" value="Enviar" />
+              <input class="form-buttons" type="reset" value="Borrar todo" />
+            </div>
+          </fieldset>
+        </form>
+      </main>
+      <!--Footer, contiene iconos para redirigir a distintos sitios-->
+      <footer class="footer">
+        <p>Todos los derechos reservados</p>
+        <ul class="links-footer">
+          <li class="inicio">
+            <a href="#inicio">Inicio</a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/psiconeuro.espiritual/" target="_blank">
+              <i class="fa-brands fa-instagram icono"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://api.whatsapp.com/send?phone=5491136900378" target="_blank">
+              <i class="fa-brands fa-whatsapp icono"></i>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <i class="fa-brands fa-facebook-square icono"></i>
+            </a>
+          </li>
+        </ul>
+      </footer>  
+  </body>
+</html>
