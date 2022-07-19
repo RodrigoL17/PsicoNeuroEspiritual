@@ -8,6 +8,7 @@
 /* Estilos del menu de navegacion del encabezado*/
 
 header {
+  z-index: 2;
   position: sticky;
   top: 0;
   background: white;
@@ -255,6 +256,7 @@ main {
 }
 
 .section-container-reverse {
+  z-index: 1;
   color: rgb(202, 136, 205);
   display: flex;
   flex-direction: row-reverse;
@@ -325,6 +327,7 @@ main {
 /*estilos del Footer*/
 
 .footer {
+  z-index: 2;
   background-color: white;
   display: flex;
   justify-content: space-between;
