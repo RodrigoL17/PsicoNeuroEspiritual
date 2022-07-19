@@ -85,6 +85,20 @@ main {
 }
 /*Estilos del contenido de Home*/
 
+.body-index{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  grid-template-rows: 0.23fr 1fr 0.1fr;
+  grid-template-areas: "header header header"
+                      "main main main"
+                      "footer footer footer"
+                      ;
+}
+
+.main-index{
+  grid-area: main;
+}
+
 .main-index {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -416,8 +430,18 @@ main {
 }
 
 /*Estilos html Nosotros*/
+.body-nosotros{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  grid-template-rows: 0.05fr 1fr 0.05fr;
+  grid-template-areas: "header header header"
+                      "mainN mainN mainN"
+                      "footer footer footer"
+                      ;
+}
 
 .main-nosotros{
+  grid-area: mainN;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 0.2fr 0.1fr 2fr;
