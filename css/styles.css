@@ -45,15 +45,6 @@ header {
   object-fit: contain;
 }
 
-.hamburguer{
-  display: flex;
-}
-
-.icono-barras{
-  display: none;
-  visibility: hidden;
-}
-
 .menu-side-right {
   display: flex;
   list-style: none;
@@ -64,11 +55,6 @@ header {
   padding: 0 1rem;
   font-size: 1.3rem;
   color: rgb(202, 136, 205);
-  border-right: 2px solid;
-}
-
-.menu-side-right .contacto {
-  border-right: none;
 }
 
 .menu-side-right li a {
@@ -782,3 +768,23 @@ main {
 }
 
 
+/*<nav class="menu">
+<div class="menu-logo-container">
+  <img class="menu-logo-img" src="./img/logopsico.svg" alt="Logo psiconeuroespiritual"/>
+</div>
+<i class="fa-solid fa-bars icono-barras" ></i>
+<ul class="menu-side-right">
+  <li>
+    <a href="./Pages/Nosotros.html">Nosotros</a>
+  </li>
+  <li>
+    <a href="./Pages/Staff.html">Staff</a>
+  </li>
+  <li>
+    <a href="./Pages/Servicios.html">Servicios</a>
+  </li>
+  <li class="contacto">
+    <a href="./Pages/Contacto.html">Contacto</a>
+  </li>
+</ul>
+</nav>*/
