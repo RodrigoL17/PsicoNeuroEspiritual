@@ -1,0 +1,54 @@
+@import "utilities/variables";
+
+// Estilos del menu de navegacion del encabezado
+
+header{
+    z-index: 2;
+    position: sticky;
+    top: 0;
+    background: white;
+    grid-area: header;
+    .navbar { --bs-navbar-toggler-border-color: $ppal-font-color;
+    }
+    .menu {
+        display: flex;
+        justify-content: space-between;
+        background-image: $ppal-bg-gradient;
+        .menu-logo-container {
+            display: flex;
+            width: 4rem;
+            height: 4rem;
+            margin-left: 2rem;
+            margin-top: 0.25rem;
+            .menu-logo-img {
+                object-fit: contain;
+              }
+        }
+        .menu-side-right {
+            display: flex;
+            list-style: none;
+            align-items: center;
+            li {
+                padding: 0 1rem;
+                font-size: 1.3rem;
+                color: $ppal-font-color;
+                a {
+                    text-decoration: none;
+                    color: $ppal-font-color;
+                    font-weight: 600;
+                  }
+              }
+        }
+        .navbar-toggler{
+            color: $ppal-font-color;
+        }
+        button{
+            border: 0.2rem solid;
+            span{
+                background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(202, 136, 205)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+            }
+        }
+        
+    }
+}
+  

@@ -1,0 +1,91 @@
+//Estilos html Contacto
+
+@import "utilities/variables";
+  
+.form-contacto {
+  display: flex;
+  justify-content: center;
+  padding-top: 4rem;
+  max-height: 70%;
+  fieldset {
+    border: 0.25rem solid $ppal-border-color;
+    height: 50rem;
+    width: 28rem;
+    display: flex;
+    flex-direction: column;
+    background-color: $ppal-bg-color;
+    border-radius: 1.5rem;
+    padding: 1%;
+    align-items: center;
+    justify-content: space-between;
+    .form-logo {
+        max-width: 5.5rem;
+        max-height: 5.5rem;
+      }
+    legend {
+        padding: 0 1rem;
+        color: $ppal-font-color;
+        margin-left: 7.8rem;
+        font-size: 1.5rem;
+        padding-top: 1rem;
+        font-weight: bold;
+      }
+  }
+  .form-input-container {
+    display: flex;
+    flex-direction: column;
+    color: $ppal-font-color;
+    font-weight: bold;
+    label{
+        margin-bottom: 0.4rem;
+    }
+    .input-t {
+        min-height: 1.7rem;
+        min-width: 18rem;
+        border: 0.15rem solid $ppal-border-color;
+        border-radius: 0.4rem;
+        color: $ppal-font-color;
+      }
+    .input-t::placeholder{
+        color: $ppal-font-color;
+    }
+    .input-t:focus{
+        outline: 0.15rem solid $ppal-font-color;
+        border-radius: 5px;
+        border-color: transparent;
+    }
+  }
+  .form-textarea {
+    min-width: 18rem;
+    border: 0.2rem solid $ppal-border-color;
+    border-radius: 0.4rem;
+    color: $ppal-font-color; 
+  }
+  .form-textarea::placeholder{
+    color: $ppal-font-color; 
+  }
+  .form-textarea:focus{
+    outline: 0.2rem solid $ppal-font-color;
+    border-radius: 0.4rem;
+    border-color: transparent;
+  }
+  .form-buttons-container {
+    min-width: 16rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .form-buttons {
+      min-width: 6.3rem;
+      min-height: 2rem;
+      border: 0.15rem solid $ppal-border-color;
+      border-radius: 0.4rem;
+      font-weight: bold; 
+      color: $ppal-font-color;
+      background-color: $input-bg-color;
+    }
+  }
+}
+
+
+
+

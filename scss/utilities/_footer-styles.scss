@@ -1,0 +1,44 @@
+@import "utilities/variables";
+
+//Estilos del Footer
+
+.footer {
+    z-index: 2;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    bottom: 0;
+    background-image: $ppal-bg-gradient;
+    grid-area: footer;
+    p {
+        padding: 1%;
+        margin-left: 1.5rem;
+        color: rgb(55, 185, 224);
+        font-size: 1rem;
+        font-weight: bold;
+      }
+      .links-footer {
+        display: flex;
+        align-items: center;
+        li {
+            list-style: none;
+            padding: 0 1.7rem;
+            color: $secondary-font-color;
+            a {
+                text-decoration: none;
+                color: $secondary-font-color;
+                font-size: 0.75rem;
+                font-weight: bold;
+                .icono {
+                    font-size: 1.4rem;
+                  }
+              }
+          }
+      }
+  }
+  
+  
+  
+  
+  

@@ -1,0 +1,29 @@
+/*Reset*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  /* Estilos del contenido principal*/
+  
+  main {
+    background-color: rgb(255, 255, 255);
+    min-height: 100vh;
+  }
+  @import "utilities/variables";
+  @import "utilities/header-styles";
+  @import "utilities/index-distribution";
+  @import "utilities/form-index-styles";
+  @import "utilities/index-flip-cards-styles";
+  @import "utilities/nosotros-styles";
+  @import "utilities/staff-servicios-styles";
+  @import "utilities/contacto-styles";
+  @import "utilities/footer-styles";
+  @import "utilities/media-querys";
+
+
+  
+  

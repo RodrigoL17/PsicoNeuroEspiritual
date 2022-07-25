@@ -1,0 +1,40 @@
+.body-index{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 0.1fr 5fr 0.1fr;
+    grid-template-areas: "header header header"
+                        "main main main"
+                        "footer footer footer"
+                        ;
+    align-content: center;
+    align-items: center;
+    .main-index{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: 
+                            "login login login"
+                            "sectionuno sectiondos sectiontres";
+        row-gap: 1.5rem;
+        column-gap: 1rem;
+        grid-area: main;
+        margin: 1rem 2rem;
+        .section-i-uno{
+            grid-area: sectionuno;
+          }
+          
+          .section-i-dos{
+            grid-area: sectiondos;
+          }
+          
+          .section-i-tres{
+            grid-area: sectiontres;
+          }
+      }
+  }
+  
+  
+  
+ 
+  
+  
