@@ -9,10 +9,11 @@
 
   /* Estilos del contenido principal*/
   
-  main {
-    background-color: rgb(255, 255, 255);
+  body {
+    background-color: white;
     min-height: 100vh;
   }
+
   @import "utilities/variables";
   @import "utilities/header-styles";
   @import "utilities/index-distribution";

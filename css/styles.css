@@ -6,7 +6,7 @@
   font-family: "Montserrat", sans-serif; }
 
 /* Estilos del contenido principal*/
-main {
+body {
   background-color: white;
   min-height: 100vh; }
 
@@ -42,6 +42,8 @@ header {
           text-decoration: none;
           color: #d24cdb;
           font-weight: 600; }
+        header .menu .menu-side-right li a:hover {
+          border-bottom: 0.1rem solid; }
     header .menu .navbar-toggler {
       color: #d24cdb; }
     header .menu button {
@@ -96,6 +98,18 @@ header {
     .login-form .login-div-container input {
       border-radius: 0.4rem;
       outline: none; }
+    .login-form .login-div-container .input-t {
+      min-height: 1.7rem;
+      min-width: 18rem;
+      border: 0.15rem solid #37b9e0;
+      border-radius: 0.4rem;
+      color: #d24cdb; }
+    .login-form .login-div-container .input-t::placeholder {
+      color: #d24cdb; }
+    .login-form .login-div-container .input-t:focus {
+      outline: 0.15rem solid #d24cdb;
+      border-radius: 5px;
+      border-color: transparent; }
   .login-form .ingresar {
     height: 2rem;
     width: 7rem;

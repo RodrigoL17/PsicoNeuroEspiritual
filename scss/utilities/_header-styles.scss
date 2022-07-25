@@ -37,6 +37,9 @@ header{
                     color: $ppal-font-color;
                     font-weight: 600;
                   }
+                a:hover{
+                    border-bottom: 0.1rem solid;
+                }
               }
         }
         .navbar-toggler{

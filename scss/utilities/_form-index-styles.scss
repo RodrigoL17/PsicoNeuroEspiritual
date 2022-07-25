@@ -27,6 +27,21 @@
             border-radius: 0.4rem;
             outline: none;
           }
+        .input-t {
+            min-height: 1.7rem;
+            min-width: 18rem;
+            border: 0.15rem solid $ppal-border-color;
+            border-radius: 0.4rem;
+            color: $ppal-font-color;
+          }
+        .input-t::placeholder{
+            color: $ppal-font-color;
+          }
+        .input-t:focus{
+            outline: 0.15rem solid $ppal-font-color;
+            border-radius: 5px;
+            border-color: transparent;
+          }
       }
     .ingresar {
         height: 2rem;
@@ -37,6 +52,6 @@
         background-color: $input-bg-color;
         font-weight: bold;
       }
-  }
+}
   
   
