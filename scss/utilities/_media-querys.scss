@@ -18,20 +18,15 @@
   @media screen and (max-width: 768px){
   
     /*Html Index*/
+    
     .main-index{
       display: flex;
       flex-direction: column;
-      justify-content: center;
       align-items: center;
-      padding: 0 8rem;
-      row-gap: 1rem;
-    }
-  
-    .section-i-uno{
-      display: flex;
-      align-items: center;
-      justify-content: space-around;
-      background-color: red;
+      .flip-card{
+        height: 20rem;
+        width: 20rem;
+      }
     }
     
     /*Html Nosotros*/
@@ -41,11 +36,11 @@
       margin: 0 6rem;
     }
   
-    .titulo-ppal{
-      font-size: 2rem;
+    .body-nosotros .main-nosotros .titulo-ppal{
+      font-size: 2.5rem;
     }
   
-    .parrafo-ppal{
+    .body-nosotros .main-nosotros .parrafo-ppal{
       font-size: 0.6rem;
     }
   
@@ -53,7 +48,6 @@
     .footer p {
       padding: 1%;
       margin-left: 1.2rem;
-      color: rgb(55, 185, 224);
       font-size: 0.8rem;
       font-weight: bold;
     }
@@ -64,70 +58,19 @@
   }
   
   @media screen and (max-width: 600px){
+      header {
+        max-height: 3rem;
+      }
 
-      /*html index*/
-      .main-index section p {
-        display: none;
-      }
-  
-      .login-form{
-      height: 23rem;
-      width: 16rem;
-      border: 0.25rem solid rgb(55, 185, 224);
-      border-radius: 1.5rem;
-      }
-  
-      .login-title {
-        margin-bottom: 0.2rem;
-      }
-      
-      .login-div-container {
-        height: 2rem;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        font-weight: bold;
-      }
-      
-      .login-div-container input {
-        border-radius: 0.3rem;
-        outline: none;
-      }
-      
-      .ingresar {
-        height: 1.5rem;
-        width: 4rem;
-        border-radius: 0.3rem;
-        border-color: rgb(55, 185, 224);
-        color: rgba(167, 234, 255, 1);
-        background-color: rgb(202, 136, 205);
-        font-weight: bold;
-      }
-  
-      .input-t {
-        min-height: 1.2rem;
-        min-width: 9rem;
-        border: 0.15rem solid rgb(55, 185, 224);
-        border-radius: 0.4rem;
-        color: rgb(202, 136, 205);
-      }
-      
-      
-      .input-t:focus{
-        outline: 3px solid rgb(202, 136, 205);
-        border-radius: 5px;
-        border-color: transparent;
-      }
-    
   
       /*Html Nosotros*/
       .main-nosotros{
-        grid-template-rows: 0.05fr 0.05fr 1fr;
-        grid-template-columns: 0.7fr 0.7fr 0.7fr;
+        grid-template-rows: 0.06fr 0.06fr 1fr;
+        grid-template-columns: 0.8fr 0.8fr 0.8fr;
         margin: 0 5rem;
       }
     
-      .titulo-ppal{
+      .body-nosotros .main-nosotros .titulo-ppal{
         font-size: 1.8rem;
       }
   
@@ -144,28 +87,29 @@
   
       .links-footer {
         justify-content: flex-start;
+        padding-left: 0;
       }
       
   }
   
   @media screen and (max-width: 500px) {
     /*Html Nosotros*/
-    .titulo-ppal{
+    .body-nosotros .main-nosotros .titulo-ppal{
       font-size: 1.4rem;
     }
   
-    .parrafo-ppal{
+    .body-nosotros .main-nosotros .parrafo-ppal{
       font-size: 0.4rem;
     }
   }
   
   @media screen and (max-width: 420px) {
     /*Html Nosotros*/
-    .titulo-ppal{
+    .body-nosotros .main-nosotros .titulo-ppal{
       font-size: 1rem;
     }
   
-    .parrafo-ppal{
+    .body-nosotros .main-nosotros .parrafo-ppal{
       font-size: 0.3rem;
     }
   

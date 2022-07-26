@@ -44,11 +44,11 @@
             flex-direction: column;
             row-gap: 0.5rem; 
             .media-container {
-                aspect-ratio: 1;
                 border: 2px solid red;
                 object-fit: scale-down;
                 .media-container-img{
                     width: 100%;
+                    aspect-ratio: 1;
                 }
             }
                

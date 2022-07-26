@@ -33,7 +33,7 @@
     justify-content: space-around;
     align-items: center;
     border: 0.25rem solid $ppal-border-color;
-    border-radius: 3rem;
+    border-radius: 2rem;
     background-color: $ppal-bg-color;
     color: $ppal-font-color;
     .fc-img-container{
@@ -56,7 +56,7 @@
   /* Style the back side */
   .flip-card-back {
     border: 0.25rem solid $ppal-border-color;
-    border-radius: 3rem;
+    border-radius: 2rem;
     background-color: $ppal-bg-color;
     transform: rotateY(180deg);
     color: $ppal-font-color;
