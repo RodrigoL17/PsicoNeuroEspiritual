@@ -1,6 +1,7 @@
 //Estilos html Contacto
 
-@import "utilities/variables";
+@import "base/variables";
+@import "base/mixin";
   
 .form-contacto {
   display: flex;
@@ -8,13 +9,10 @@
   padding-top: 4rem;
   max-height: 70%;
   fieldset {
-    border: 0.25rem solid $ppal-border-color;
+    @include flex-colum;
+    @include form-bbgformat;
     height: 50rem;
     width: 28rem;
-    display: flex;
-    flex-direction: column;
-    background-color: $ppal-bg-color;
-    border-radius: 1.5rem;
     padding: 1%;
     align-items: center;
     justify-content: space-between;
@@ -32,19 +30,14 @@
       }
   }
   .form-input-container {
-    display: flex;
-    flex-direction: column;
+    @include flex-colum;
     color: $ppal-font-color;
     font-weight: bold;
     label{
         margin-bottom: 0.4rem;
     }
     .input-t {
-        min-height: 1.7rem;
-        min-width: 18rem;
-        border: 0.15rem solid $ppal-border-color;
-        border-radius: 0.4rem;
-        color: $ppal-font-color;
+        @include input-t;
       }
     .input-t::placeholder{
         color: $ppal-font-color;
@@ -75,17 +68,12 @@
     flex-direction: row;
     justify-content: space-between;
     .form-buttons {
+      @extend %botones;
       min-width: 6.3rem;
       min-height: 2rem;
-      border: 0.15rem solid $ppal-border-color;
-      border-radius: 0.4rem;
-      font-weight: bold; 
-      color: $ppal-font-color;
-      background-color: $input-bg-color;
     }
   }
 }
-
 
 
 

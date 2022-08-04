@@ -1,6 +1,7 @@
 //Media Querys
 
-@import "utilities/variables";
+@import "base/variables";
+@import "base/mixin";
 
 @media screen and (max-width: 1024px){
     /* Html-Nosotros*/
@@ -20,8 +21,7 @@
     /*Html Index*/
     
     .main-index{
-      display: flex;
-      flex-direction: column;
+      @include flex-colum;
       align-items: center;
       .flip-card{
         height: 20rem;

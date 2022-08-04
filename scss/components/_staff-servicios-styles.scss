@@ -1,17 +1,13 @@
 // Estilos de Html Staff y Servicios
 
-@import "utilities/variables";
-
+@import "base/variables";
+@import "base/mixin";
+@import "base/extend";
 .container {
     height: 70%;
-    display: flex;
-    flex-direction: column;
+    @include flex-colum;
     .titulo-ppal {
-        font-size: 4rem;
-        text-align: center;
-        padding: 2% 0;
-        color: $ppal-font-color;
-        text-shadow: 3px 3px $text-shadow-ppalfont;
+        @extend %titulo-principal;
         grid-area: h1;
       }
     .section-container {

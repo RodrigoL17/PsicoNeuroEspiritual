@@ -1,0 +1,33 @@
+@mixin flex-colum {
+    display: flex;
+    flex-direction: column;
+}
+
+@mixin input-t {
+    min-height: 1.7rem;
+    min-width: 18rem;
+    border: 0.15rem solid $ppal-border-color;
+    border-radius: 0.4rem;
+    color: $ppal-font-color;
+}
+
+@mixin form-bbgformat {
+    border: 0.25rem solid $ppal-border-color;
+    border-radius: 1.5rem;
+    background-color: $ppal-bg-color;
+}
+
+@mixin form-buttons {
+    border: 0.15rem solid $ppal-border-color;
+    color: $ppal-font-color;
+    background-color: $input-bg-color;
+    font-weight: bold;
+    border-radius: 0.4rem;
+}
+
+@mixin transform ($trasnform) {
+    -webkit-transform: $trasnform;
+    -o-transform: $trasnform;
+    -moz-transform: $trasnform;
+    -ms-transform: $trasnform;
+}

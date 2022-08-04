@@ -75,16 +75,30 @@ header {
   .main-index .section-i-tres {
     grid-area: sectiontres; }
 
+.login-form .ingresar, .form-contacto .form-buttons-container .form-buttons {
+  border: 0.15rem solid #37b9e0;
+  color: #d24cdb;
+  background-color: #ededed;
+  font-weight: bold;
+  border-radius: 0.4rem; }
+
+.body-nosotros .main-nosotros .titulo-ppal, .container .titulo-ppal {
+  font-size: 4rem;
+  text-align: center;
+  padding: 2% 0;
+  color: #d24cdb;
+  text-shadow: 3px 3px #ebbaf8; }
+
 .login-form {
   display: flex;
   flex-direction: column;
+  border: 0.25rem solid #37b9e0;
+  border-radius: 1.5rem;
+  background-color: #fff7ff;
   justify-content: space-evenly;
   align-items: center;
   height: 27rem;
   width: 20rem;
-  border: 0.25rem solid #37b9e0;
-  border-radius: 1.5rem;
-  background-color: #fff7ff;
   color: #d24cdb;
   grid-area: login;
   justify-self: center; }
@@ -92,9 +106,9 @@ header {
     margin-bottom: 0.5rem;
     font-weight: bold; }
   .login-form .login-div-container {
-    height: 4rem;
     display: flex;
     flex-direction: column;
+    height: 4rem;
     justify-content: space-around;
     font-weight: bold; }
     .login-form .login-div-container input {
@@ -114,12 +128,7 @@ header {
       border-color: transparent; }
   .login-form .ingresar {
     height: 2rem;
-    width: 7rem;
-    border-radius: 0.3rem;
-    border: 0.15rem solid #37b9e0;
-    color: #d24cdb;
-    background-color: #ededed;
-    font-weight: bold; }
+    width: 7rem; }
 
 .flip-card {
   background-color: transparent;
@@ -134,7 +143,10 @@ header {
   transform-style: preserve-3d; }
 
 .flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg); }
+  -webkit-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg); }
 
 .flip-card-front, .flip-card-back {
   position: absolute;
@@ -168,7 +180,10 @@ header {
   border: 0.25rem solid #37b9e0;
   border-radius: 2rem;
   background-color: #fff7ff;
-  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
   color: #d24cdb; }
 
 .flip-card-back p {
@@ -176,6 +191,20 @@ header {
   text-align: center;
   justify-content: center;
   align-items: center; }
+
+.login-form .ingresar, .form-contacto .form-buttons-container .form-buttons {
+  border: 0.15rem solid #37b9e0;
+  color: #d24cdb;
+  background-color: #ededed;
+  font-weight: bold;
+  border-radius: 0.4rem; }
+
+.body-nosotros .main-nosotros .titulo-ppal, .container .titulo-ppal {
+  font-size: 4rem;
+  text-align: center;
+  padding: 2% 0;
+  color: #d24cdb;
+  text-shadow: 3px 3px #ebbaf8; }
 
 .body-nosotros {
   display: grid;
@@ -192,11 +221,6 @@ header {
     margin: 0 8rem;
     justify-items: center; }
     .body-nosotros .main-nosotros .titulo-ppal {
-      font-size: 4rem;
-      text-align: center;
-      padding: 2% 0;
-      color: #d24cdb;
-      text-shadow: 3px 3px #ebbaf8;
       grid-area: h1; }
     .body-nosotros .main-nosotros .parrafo-ppal {
       color: #d24cdb;
@@ -223,17 +247,26 @@ header {
     .body-nosotros .main-nosotros .section-tres {
       grid-area: section-tres; }
 
+.login-form .ingresar, .form-contacto .form-buttons-container .form-buttons {
+  border: 0.15rem solid #37b9e0;
+  color: #d24cdb;
+  background-color: #ededed;
+  font-weight: bold;
+  border-radius: 0.4rem; }
+
+.body-nosotros .main-nosotros .titulo-ppal, .container .titulo-ppal {
+  font-size: 4rem;
+  text-align: center;
+  padding: 2% 0;
+  color: #d24cdb;
+  text-shadow: 3px 3px #ebbaf8; }
+
 .container {
   height: 70%;
   display: flex;
   flex-direction: column;
   /*Comportamiento particular de Servicios*/ }
   .container .titulo-ppal {
-    font-size: 4rem;
-    text-align: center;
-    padding: 2% 0;
-    color: #d24cdb;
-    text-shadow: 3px 3px #ebbaf8;
     grid-area: h1; }
   .container .section-container {
     color: #d24cdb;
@@ -293,13 +326,13 @@ header {
   padding-top: 4rem;
   max-height: 70%; }
   .form-contacto fieldset {
-    border: 0.25rem solid #37b9e0;
-    height: 50rem;
-    width: 28rem;
     display: flex;
     flex-direction: column;
-    background-color: #fff7ff;
+    border: 0.25rem solid #37b9e0;
     border-radius: 1.5rem;
+    background-color: #fff7ff;
+    height: 50rem;
+    width: 28rem;
     padding: 1%;
     align-items: center;
     justify-content: space-between; }
@@ -350,12 +383,7 @@ header {
     justify-content: space-between; }
     .form-contacto .form-buttons-container .form-buttons {
       min-width: 6.3rem;
-      min-height: 2rem;
-      border: 0.15rem solid #37b9e0;
-      border-radius: 0.4rem;
-      font-weight: bold;
-      color: #d24cdb;
-      background-color: #ededed; }
+      min-height: 2rem; }
 
 .footer {
   z-index: 2;

@@ -1,0 +1,15 @@
+%botones {
+    border: 0.15rem solid $ppal-border-color;
+    color: $ppal-font-color;
+    background-color: $input-bg-color;
+    font-weight: bold;
+    border-radius: 0.4rem;
+}
+
+%titulo-principal {
+    font-size: 4rem;
+    text-align: center;
+    padding: 2% 0;
+    color: $ppal-font-color;
+    text-shadow: 3px 3px $text-shadow-ppalfont;
+}

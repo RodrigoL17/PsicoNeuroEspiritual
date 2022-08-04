@@ -1,6 +1,7 @@
 //Tarjetas Index + animacion
 
-@import "utilities/variables";
+@import "base/variables";
+@import "base/mixin";
 
 .flip-card {
     background-color: transparent;
@@ -17,7 +18,7 @@
   }
   
   .flip-card:hover .flip-card-inner {
-    transform: rotateY(180deg);
+    @include transform (rotateY(180deg));
   }
   
   .flip-card-front, .flip-card-back {
@@ -28,8 +29,7 @@
   }
   
   .flip-card-front {
-    display: flex;
-    flex-direction: column;
+    @include flex-colum;
     justify-content: space-around;
     align-items: center;
     border: 0.25rem solid $ppal-border-color;
@@ -46,7 +46,6 @@
         max-height: 100%;
       }
     }
-    
   }
   
   .flip-card-front h2{
@@ -58,7 +57,7 @@
     border: 0.25rem solid $ppal-border-color;
     border-radius: 2rem;
     background-color: $ppal-bg-color;
-    transform: rotateY(180deg);
+    @include transform (rotateY(180deg));
     color: $ppal-font-color;
   }
   

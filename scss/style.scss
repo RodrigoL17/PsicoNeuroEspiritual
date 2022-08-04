@@ -14,16 +14,16 @@
     min-height: 100vh;
   }
 
-  @import "utilities/variables";
-  @import "utilities/header-styles";
-  @import "utilities/index-distribution";
-  @import "utilities/form-index-styles";
-  @import "utilities/index-flip-cards-styles";
-  @import "utilities/nosotros-styles";
-  @import "utilities/staff-servicios-styles";
-  @import "utilities/contacto-styles";
-  @import "utilities/footer-styles";
-  @import "utilities/media-querys";
+  @import "base/variables";
+  @import "components/header-styles";
+  @import "components/index-distribution";
+  @import "components/form-index-styles";
+  @import "components/index-flip-cards-styles";
+  @import "components/nosotros-styles";
+  @import "components/staff-servicios-styles";
+  @import "components/contacto-styles";
+  @import "components/footer-styles";
+  @import "components/media-querys";
 
 
   

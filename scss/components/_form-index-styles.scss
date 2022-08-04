@@ -1,16 +1,15 @@
 
-@import "utilities/variables";
+@import "base/variables";
+@import "base/mixin";
+@import "base/extend";
 
 .login-form {
-    display: flex;
-    flex-direction: column;
+    @include flex-colum;
+    @include form-bbgformat;
     justify-content: space-evenly;
     align-items: center;
     height: 27rem;
     width: 20rem;
-    border: 0.25rem solid $ppal-border-color;
-    border-radius: 1.5rem;
-    background-color: $ppal-bg-color;
     color: $ppal-font-color;
     grid-area: login;
     justify-self: center;
@@ -19,9 +18,8 @@
         font-weight: bold;
       }
     .login-div-container {
+        @include flex-colum;
         height: 4rem;
-        display: flex;
-        flex-direction: column;
         justify-content: space-around;
         font-weight: bold;
         input {
@@ -29,11 +27,7 @@
             outline: none;
           }
         .input-t {
-            min-height: 1.7rem;
-            min-width: 18rem;
-            border: 0.15rem solid $ppal-border-color;
-            border-radius: 0.4rem;
-            color: $ppal-font-color;
+           @include input-t;
           }
         .input-t::placeholder{
             color: $ppal-font-color;
@@ -45,13 +39,9 @@
           }
       }
     .ingresar {
+        @extend %botones;
         height: 2rem;
         width: 7rem;
-        border-radius: 0.3rem;
-        border: 0.15rem solid $ppal-border-color;
-        color: $ppal-font-color;
-        background-color: $input-bg-color;
-        font-weight: bold;
       }
 }
   
