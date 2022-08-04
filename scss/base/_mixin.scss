@@ -17,14 +17,6 @@
     background-color: $ppal-bg-color;
 }
 
-@mixin form-buttons {
-    border: 0.15rem solid $ppal-border-color;
-    color: $ppal-font-color;
-    background-color: $input-bg-color;
-    font-weight: bold;
-    border-radius: 0.4rem;
-}
-
 @mixin transform ($trasnform) {
     -webkit-transform: $trasnform;
     -o-transform: $trasnform;
