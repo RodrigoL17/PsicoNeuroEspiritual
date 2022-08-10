@@ -8,7 +8,9 @@ header{
     top: 0;
     background: white;
     grid-area: header;
-    .navbar { --bs-navbar-toggler-border-color: $ppal-font-color;
+    .navbar { 
+        --bs-navbar-toggler-border-color: $ppal-font-color;
+        --bs-navbar-padding-y:0;
     }
     .menu {
         display: flex;
