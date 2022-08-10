@@ -6,12 +6,12 @@
 @media screen and (max-width: 1024px){
     /* Html-Nosotros*/
     
-    .titulo-ppal{
+    .body-nosotros .main-nosotros .titulo-ppal, .container .titulo-ppal{
       font-size: 3rem;
     }
   
-    .parrafo-ppal{
-      font-size: 0.9rem;
+    .body-nosotros .main-nosotros .parrafo-ppal{
+      font-size: 1rem;
     }
   
   }
@@ -30,18 +30,18 @@
     }
     
     /*Html Nosotros*/
-    .main-nosotros{
+    .body-nosotros .main-nosotros{
       grid-template-rows: 0.1fr 0.1fr 1.2fr;
-      grid-template-columns: 0.7fr 0.7fr 0.7fr;
-      margin: 0 6rem;
+      grid-template-columns: 1fr 1fr 1fr;
+      margin: 0 2rem;
     }
   
     .body-nosotros .main-nosotros .titulo-ppal{
-      font-size: 2.5rem;
+      font-size: 2.7rem;
     }
   
     .body-nosotros .main-nosotros .parrafo-ppal{
-      font-size: 0.6rem;
+      font-size: 0.8rem;
     }
   
     /* Footer */
@@ -64,14 +64,14 @@
 
   
       /*Html Nosotros*/
-      .main-nosotros{
-        grid-template-rows: 0.06fr 0.06fr 1fr;
+      .body-nosotros .main-nosotros{
+        grid-template-rows: 0.1fr 0.1fr 1fr;
         grid-template-columns: 0.8fr 0.8fr 0.8fr;
-        margin: 0 5rem;
+        margin: 2.5rem 1rem;
       }
     
       .body-nosotros .main-nosotros .titulo-ppal{
-        font-size: 1.8rem;
+        font-size: 2.2rem;
       }
   
       /*Footer*/
@@ -95,28 +95,27 @@
   @media screen and (max-width: 500px) {
     /*Html Nosotros*/
     .body-nosotros .main-nosotros .titulo-ppal{
-      font-size: 1.4rem;
+      font-size: 2rem;
     }
   
     .body-nosotros .main-nosotros .parrafo-ppal{
-      font-size: 0.4rem;
+      font-size: 0.7rem;
     }
   }
   
   @media screen and (max-width: 420px) {
     /*Html Nosotros*/
     .body-nosotros .main-nosotros .titulo-ppal{
-      font-size: 1rem;
+      font-size: 1.8rem;
+    }
+
+    .body-nosotros .main-nosotros{
+      gap: 0.2rem;
+      row-gap: 0.2rem;
+      margin-top: 2.8rem;
+      margin-right: 0.5rem;
+      margin-left: 0.5rem;
     }
   
-    .body-nosotros .main-nosotros .parrafo-ppal{
-      font-size: 0.3rem;
-    }
-  
-    .main-nosotros{
-      grid-template-rows: 0.03fr 0.03fr 0.7fr;
-      grid-template-columns: 0.6fr 0.6fr 0.6fr;
-      margin: 0 3rem;
-    }
   }
   
