@@ -90,11 +90,11 @@
     }
 
     .container .section-container .card-img {
-      max-height: 9rem;
-      min-height: 9rem;
+      min-height: 10rem;
       max-width: 10.5rem;
       min-width: 9rem;
-  
+    }
+
     /* Footer */
     .footer p {
       padding: 1%;
@@ -102,7 +102,7 @@
       font-size: 0.8rem;
       font-weight: bold;
     }
-  
+    //arreglar aca ********
     .inicio{
       display: none;
     }
@@ -136,6 +136,15 @@
         justify-content: flex-start;
         padding-left: 0;
       }
+
+      .form-contacto fieldset{
+        height: 40rem;
+        width: 25rem;
+      }
+
+      .form-contacto .form-textarea{
+        max-height: 12.5rem
+      }
       
   }
   
@@ -166,6 +175,14 @@
       row-gap: 0.2rem;
       margin: 0 0.5rem;
     }
+
+    .form-contacto fieldset{
+      height: 40rem;
+      width: 22rem;
+      margin-left: 0.5rem;
+    }
+    .form-contacto .form-textarea{
+      max-height: 10rem
+    }
     
   }
-}
