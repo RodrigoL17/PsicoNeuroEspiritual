@@ -23,6 +23,7 @@
         grid-gap: 0.5rem;
         margin: 0 4rem;
         justify-items: center;
+        margin-bottom: 1.2rem;
         .titulo-ppal {
             @extend %titulo-principal;
             grid-area: h1;
