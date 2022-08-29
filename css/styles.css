@@ -326,6 +326,11 @@ header {
     flex-direction: row-reverse;
     box-shadow: -4px -4px 4px; }
 
+.container h1 {
+  text-align: center;
+  color: #d24cdb;
+  font-size: 3rem; }
+
 .form-contacto {
   display: flex;
   justify-content: center;
